@@ -12,14 +12,7 @@ type ContatoType = {
 }
 
 const initialState: ContatoType = {
-  itens: [
-    {
-      id: 0,
-      nomeCompleto: "Vinicius Santana",
-      email: "viny198@hotmail.com",
-      tel: "22"
-    }
-  ]
+  itens: []
 }
 
 const contatoReducer = createSlice({
